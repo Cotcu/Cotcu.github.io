@@ -2,31 +2,31 @@ document.addEventListener('DOMContentLoaded', () => {
     // Funcionalidad de Contacto
     const contactForm = document.getElementById('contact-form');
     if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Mensaje enviado.');
-            contactForm.reset();
-        });
+        contactForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Mensaje enviado.');
+                contactForm.reset();
+            });
     }
 
     // Funcionalidad de Login
     const loginForm = document.getElementById('login-form');
     if (loginForm) {
-        loginForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Login exitoso.');
-            loginForm.reset();
-        });
+        loginForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Login exitoso.');
+                loginForm.reset();
+            });
     }
 
     // Funcionalidad de Registro
     const registerForm = document.getElementById('register-form');
     if (registerForm) {
-        registerForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            alert('Registro exitoso.');
-            registerForm.reset();
-        });
+        registerForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                alert('Registro exitoso.');
+                registerForm.reset();
+            });
     }
 });
 
