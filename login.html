@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Violeta - Registro/Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="important-message">
+            <p>FOTOCOPIAS A COLOR.</p>
+          </div>
+        <div class="logo">
+            <img src="images/Diseño sin título.png" alt="Rayo Violeta">
+            
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="login.html">Registro/Login</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="registro">Login</h2>
+        <form id="login-form">
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Ingresar</button>
+        </form>
+        <form id="register-form">
+            <h3 class="registro">Registro</h3>
+            <label for="new-username">Usuario:</label>
+            <input type="text" id="new-username" name="new-username" required>
+            <label for="new-password">Contraseña:</label>
+            <input type="password" id="new-password" name="new-password" required>
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+   
+    <script src="script.js"></script>
+</body>
+</html>
