@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rayo Violeta - Productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="important-message">
+            <p>FOTOCOPIAS A COLOR.</p>
+          </div>
+        <div class="logo">
+            <img src="images/Diseño sin título.png" alt="Rayo Violeta">
+            
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="login.html">Registro/Login</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <div class="container"> 
+
+        <div class="filters">
+            <div class="filter-group">
+                <label for="category-filter">Categoría:</label>
+                <select id="category-filter">
+                    <option value=""></option>
+                    <option value="oficina">Oficina</option>
+                    <option value="estudio">Estudio</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="price-filter">Precio:</label>
+                <select id="price-filter">
+                    <option value=""></option>
+                    <option value="0-50">$0 - $50</option>
+                    <option value="51-100">$51 - $100</option>
+                    <option value="101-200">$101 - $200</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label for="brand-filter">Marca:</label>
+                <select id="brand-filter">
+                    <option value=""></option>
+                    <option value="marca1">Marca 1</option>
+                    <option value="marca2">Marca 2</option>
+                </select>
+            </div>
+                        <!-- Barra de búsqueda -->
+                        <div class="filter-group">
+                            <label for="search-bar">Buscar:</label>
+                            <input type="text" id="search-bar" placeholder="Buscar productos...">
+                        </div>
+        </div>
+
+        <div class="product-list">
+            <div class="product-item" data-category="oficina" data-price="30" data-brand="marca1">
+                <img src="images/product1.png" alt="Lápiz">
+                <h3>Lápiz</h3>
+                <p>Categoría: Oficina</p>
+                <p>Precio: $30</p>
+                <p>Marca: Marca 1</p>
+            </div>
+            <div class="product-item" data-category="estudio" data-price="70" data-brand="marca2">
+                <img src="images/product2.jpeg" alt="Cuadernola">
+                <h3>Cuadernola</h3>
+                <p>Categoría: Estudio</p>
+                <p>Precio: $70</p>
+                <p>Marca: Marca 2</p>
+            </div>
+
+            <!-- Agrega más productos según sea necesario -->
+        </div>
+        <div class="product-list">
+            <!-- Aquí irán los productos -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
