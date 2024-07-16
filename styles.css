@@ -1,0 +1,273 @@
+body {
+    font-family: 'Corsiva', 'Monotype Corsiva', sans-serif;
+    background-color: #e7bfe2;
+    color: #4A148C;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6424d4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 350px;
+    vertical-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+    padding-top: 10px; /* Ajusta según la altura de tu menú */
+}
+
+
+
+form {
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1n0px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #7B1FA2;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #7B1FA2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6b40a0;
+}
+
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6424d4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+
+.logo h1 {
+    display: inline;
+    margin-left: 10px;
+    vertical-align: center;
+}
+
+nav {
+    background-color: #6424d4;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #896cbb;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+
+
+/* Contact form styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.localimagen{
+   max-width: 500px;
+}
+
+.registro{
+    text-align: center;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.filters .filter-group {
+    display: flex;
+    align-items: center;
+    background-color: #E1BEE7; /* Violeta claro */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.filters label {
+    margin-right: 10px;
+    color: #4A148C; /* Texto en violeta oscuro */
+}
+
+.filters select {
+    padding: 10px;
+    background-color: #e1c7e6; /* Fondo violeta claro */
+    border: 1px solid #6A1B9A; /* Borde violeta más oscuro */
+    color: #4A148C; /* Texto en violeta oscuro */
+    border-radius: 10px;
+    margin: 0px;
+}
+
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+
+}
+
+.product-item {
+    border: 2px solid hsl(0, 0%, 91%);
+    padding: 10px;
+    text-align: left;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-item h3 {
+    margin: 10px 0;
+}
+
+/* Blog Styles */
+.blog-posts {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+.blog-post {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px
+}
+
+/* Estilo para la barra de búsqueda */
+#search-bar {
+    padding: 5px;
+    background-color: #E1BEE7; /* Fondo violeta claro */
+    border: 1px solid #6A1B9A; /* Borde violeta más oscuro */
+    color: #4A148C; /* Texto en violeta oscuro */
+    border-radius: 5px;
+}
+
+.important-message {
+    position: absolute; /* Posiciona el módulo en relación al contenedor más cercano con posición relativa */
+    top: 10px; /* Ajusta la distancia desde la parte superior del contenedor */
+    left: 10px; /* Ajusta la distancia desde el borde izquierdo del contenedor */
+    background-color: #f0f8ff; /* Color de fondo (un tono claro y agradable) */
+    color: #333; /* Color del texto */
+    width: 300px; /* Ancho del cuadrado */
+    height: 120px; /* Altura ajustada para el contenido */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil alrededor del módulo */
+    display: flex; /* Usa flexbox para centrar el contenido */
+    align-items: center; /* Centra el contenido verticalmente */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    font-size: 14px; /* Tamaño de la fuente */
+    text-align: center; /* Alineación del texto */
+    padding: 15px; /* Espaciado interno */
+    overflow: hidden; /* Oculta cualquier contenido que se salga del contenedor */
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    font-weight: bold; /* Hace el texto más destacable */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* Sombra del texto para mejor visibilidad */
+   
+
+}
+  
+.container{
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 15px;
+
+}
+
+
+
