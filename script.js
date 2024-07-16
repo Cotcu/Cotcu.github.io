@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (loginForm) {
         loginForm.addEventListener('submit', function (e) {
                 e.preventDefault();
-                alert('Login exitoso.');
+                alert('Login exitoso');
                 loginForm.reset();
             });
     }
