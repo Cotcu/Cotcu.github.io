@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Rayo Violeta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="important-message">
+            <p>FOTOCOPIAS A COLOR.</p>
+          </div>
+        <div class="logo">
+            <img src="images/Diseño sin título.png" alt="Rayo Violeta">
+            
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="products.html">Productos</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+            <li><a href="about.html">Sobre Nosotros</a></li>
+            <li><a href="login.html">Registro/Login</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Blog de Consejos y Novedades</h2>
+        <div class="blog-posts">
+            <article class="blog-post">
+                <h3>Consejo 1: Cómo organizar tu oficina en casa</h3>
+                <p>Consejos para mantener tu espacio de trabajo limpio y productivo...</p>
+                <button onclick="toggleDetails('post1')">Leer más</button>
+                <div id="post1" class="post-details">
+                    <p>Detalles completos del artículo...</p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <h3>Consejo 2: Herramientas esenciales para estudiantes</h3>
+                <p>Conoce las herramientas que te ayudarán a estudiar de manera más eficiente...</p>
+                <button onclick="toggleDetails('post2')">Leer más</button>
+                <div id="post2" class="post-details">
+                    <p>Detalles completos del artículo...</p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <h3>Consejo 3: Cómo elegir el mejor material de papelería</h3>
+                <p>Guía para seleccionar el material de papelería adecuado para tus necesidades...</p>
+                <button onclick="toggleDetails('post3')">Leer más</button>
+                <div id="post3" class="post-details">
+                    <p>Detalles completos del artículo...</p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <h3>Consejo 4: Ideas para decorar tu escritorio</h3>
+                <p>Inspírate con estas ideas de decoración para tu espacio de trabajo...</p>
+                <button onclick="toggleDetails('post4')">Leer más</button>
+                <div id="post4" class="post-details">
+                    <p>Detalles completos del artículo...</p>
+                </div>
+            </article>
+            <article class="blog-post">
+                <h3>Consejo 5: Cómo mantener tus suministros de oficina organizados</h3>
+                <p>Técnicas para organizar y mantener tus suministros de oficina en orden...</p>
+                <button onclick="toggleDetails('post5')">Leer más</button>
+                <div id="post5" class="post-details">
+                    <p>Detalles completos del artículo...</p>
+                </div>
+            </article>
+        </div>
+    </main>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
