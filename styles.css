@@ -269,8 +269,32 @@ input, textarea, button {
 
 }
 
-.Promoción{
-    margin: 90px;
+.promotion {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin: 20px 0;
 }
 
+.promotion img {
+    width: 100%;
+    height: auto;
+}
+
+.promotion-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+.promotion-text p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+}
 
